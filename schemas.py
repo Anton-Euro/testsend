@@ -5,4 +5,5 @@ class Contact(BaseModel):
     name: str
     email: EmailStr
     service: str
-    phonenumber: str
+    phone: str
+    consent: bool
